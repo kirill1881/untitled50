@@ -17,7 +17,7 @@ public class Main {
                 if (strings[i].charAt(j)<48&&
                         strings[i].charAt(j)>57){
                     System.out.println("Not correct");
-                    System.exit(1);
+                   
                 }
             }
         }
