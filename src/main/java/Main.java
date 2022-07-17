@@ -10,6 +10,7 @@ public class Main {
         String[] strings = str.split("\\.");
         if (strings.length!=4){
             System.out.println("Not correct");
+            System.exit(1);
         }
         for (int i = 0; i < strings.length; i++) {
             for (int j = 0; j < strings[i].length(); j++) {
